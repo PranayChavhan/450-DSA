@@ -26,3 +26,18 @@ int main(){
     findK(arr, n, 4);
     return 0;
 }
+
+
+
+
+// The prototype for sort is : 
+
+// sort(startaddress, endaddress)
+
+// startaddress: the address of the first 
+//               element of the array
+// endaddress: the address of the next 
+//             contiguous location of the 
+//             last element of the array.
+// So actually sort() sorts in the 
+// range of [startaddress,endaddress)
