@@ -6,7 +6,7 @@ using namespace std;
 
 
 void findK(int arr[], int n, int k){
-    sort(arr, arr+n+1);
+    sort(arr[0], arr[n+1]);
     cout<<arr[k - 1];
 }
 
@@ -23,6 +23,7 @@ int main(){
         cin>>arr[i];
     }
 
+    cout<<arr<<endl;
     findK(arr, n, 4);
     return 0;
 }
